@@ -1,0 +1,25 @@
+[workspace]
+members = ["src/r_boot_common"]
+
+[profile.dev]
+lto = true
+opt-level = 3
+codegen-units = 1
+debug = true
+
+[profile.dev.package."*"]
+codegen-units = 1
+opt-level = 3
+debug = true
+
+[profile.release]
+lto = true
+opt-level = 'z'
+codegen-units = 1
+debug = false
+
+[profile.release.package."*"]
+codegen-units = 1
+opt-level = 'z'
+debug = false
+
