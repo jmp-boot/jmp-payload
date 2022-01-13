@@ -1,0 +1,10 @@
+[package]
+name = "r_boot_common"
+version = "0.0.0"
+edition = "2021"
+
+[lib]
+name = "r_boot_common"
+path = "src/lib.rs"
+
+[dependencies]
