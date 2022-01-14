@@ -6,4 +6,9 @@ version = "0.1.0"
 edition = "2021"
 forced-target = "aarch64-unknown-none"
 
+[[bin]]
+name = "r_boot_aarch64_mtk"
+path = "src/main.rs"
+
 [dependencies]
+
