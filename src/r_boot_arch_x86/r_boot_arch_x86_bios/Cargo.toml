@@ -1,0 +1,9 @@
+cargo-features = ["per-package-target"]
+
+[package]
+name = "r_boot_arch_x86_bios"
+version = "0.0.0"
+edition = "2021"
+forced-target = "i386-unknown-none.json"
+
+[dependencies]
