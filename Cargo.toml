@@ -1,5 +1,6 @@
 [workspace]
-members = ["src/r_boot_common"]
+members = ["src/r_boot_common",
+           "src/r_boot_arch_aarch64/r_boot_arch_aarch64_mtk"]
 
 [profile.dev]
 lto = true
