@@ -1,12 +1,16 @@
 [workspace]
 members = ["src/r_boot_common",
-           "src/r_boot_arch_aarch64/r_boot_arch_aarch64_mtk"]
+           "src/r_boot_arch_aarch64/r_boot_arch_aarch64_mtk",
+           "src/r_boot_arch_x86/r_boot_arch_x86_bios",
+           "src/r_boot_arch_x86_64/r_boot_arch_x86_64_bios",
+           "src/r_boot_arch_x86_64/r_boot_arch_x86_64_efi"]
 
 [profile.dev]
 lto = true
 opt-level = 3
 codegen-units = 1
 debug = true
+panic = "abort"
 
 [profile.dev.package."*"]
 codegen-units = 1
