@@ -1,0 +1,9 @@
+cargo-features = ["per-package-target"]
+
+[package]
+name = "r_boot_arch_aarch64_mtk"
+version = "0.1.0"
+edition = "2021"
+forced-target = "aarch64-unknown-none"
+
+[dependencies]

@@ -3,5 +3,9 @@
 version = 3
 
 [[package]]
+name = "r_boot_arch_aarch64_mtk"
+version = "0.1.0"
+
+[[package]]
 name = "r_boot_common"
 version = "0.0.0"
