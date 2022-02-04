@@ -20,7 +20,7 @@ unsafe impl GlobalAlloc for DummyAlloc {
     }
 
     unsafe fn dealloc(&self, _ptr: *mut u8, _layout: Layout) {
-        panic!("Deallocation should NEVER be called. Bailing.");
+        panic!("ERROR: `dealloc` shouldn't be called.");
     }
 }
 
@@ -31,7 +31,7 @@ static ALLOCATOR: DummyAlloc = DummyAlloc;
 // dummy handler for allocation errors
 #[alloc_error_handler]
 fn alloc_error_handler(layout: Layout) -> ! {
-    panic!("Error during alloc: {:?}", layout);
+    panic!("ERROR: `alloc` call failed: {:?}", layout);
 }
 
 #[panic_handler]

@@ -6,4 +6,10 @@ version = "0.0.0"
 edition = "2021"
 forced-target = "x86_64-unknown-uefi"
 
+[[bin]]
+name = "r_boot_x86_64_efi"
+path = "src/main.rs"
+
 [dependencies]
+uefi = { version = "0.14.0", features = ["exts"] }
+uefi-services = "0.11.0"

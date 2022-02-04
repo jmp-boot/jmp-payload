@@ -6,4 +6,8 @@ version = "0.0.0"
 edition = "2021"
 forced-target = "x86_64-unknown-none"
 
+[[bin]]
+name = "r_boot_x86_64_bios"
+path = "src/main.rs"
+
 [dependencies]
