@@ -1,10 +1,10 @@
 [package]
-name = "r_boot_core"
+name = "boot_frame_common"
 version = "0.0.0"
 edition = "2021"
 
 [lib]
-name = "r_boot_core"
+name = "boot_frame_common"
 path = "src/lib.rs"
 
 [dependencies]
