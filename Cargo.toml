@@ -1,10 +1,10 @@
 [workspace]
-members = ["src/r_boot_core",
-           "src/r_boot_common",
-           "src/arch/aarch64/r_boot_arch_aarch64_mtk",
-           "src/arch/x86/r_boot_arch_x86_bios",
-           "src/arch/x86_64/r_boot_arch_x86_64_bios",
-           "src/arch/x86_64/r_boot_arch_x86_64_efi"]
+members = ["src/boot_frame_core",
+           "src/boot_frame_common",
+           "src/arch/aarch64/boot_frame_arch_aarch64_mtk",
+           "src/arch/x86/boot_frame_arch_x86_bios",
+           "src/arch/x86_64/boot_frame_arch_x86_64_bios",
+           "src/arch/x86_64/boot_frame_arch_x86_64_efi"]
 
 [profile.dev]
 lto = true
