@@ -1,4 +1,4 @@
-Welcome to `boot_frame`! 
+Welcome to `booters`! 
 ========================
 
 This is a bootloader framework. It uses CPU architecture-specific crates, which are exposed as a unified API for generating customised bootloaders for various devices.

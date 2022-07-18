@@ -1,10 +1,10 @@
 [package]
-name = "boot_frame_core"
-version = "0.0.0"
+name = "booters_core"
+version = "0.1.0"
 edition = "2021"
 
 [lib]
-name = "boot_frame_core"
+name = "booters_core"
 path = "src/lib.rs"
 
 [dependencies]

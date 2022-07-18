@@ -1,13 +1,13 @@
 cargo-features = ["per-package-target"]
 
 [package]
-name = "r_boot_arch_x86_bios"
-version = "0.0.0"
+name = "booters_arch_x86_bios"
+version = "0.1.0"
 edition = "2021"
 forced-target = "i686-unknown-none.json"
 
 [[bin]]
-name = "r_boot_x86_bios"
+name = "booters_x86_bios"
 path = "src/main.rs"
 
 [dependencies]
