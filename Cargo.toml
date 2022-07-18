@@ -1,21 +1,22 @@
 [workspace]
-members = ["src/boot_frame_core",
-           "src/boot_frame_common",
-           "src/arch/aarch64/boot_frame_arch_aarch64_mtk",
-           "src/arch/x86/boot_frame_arch_x86_bios",
-           "src/arch/x86_64/boot_frame_arch_x86_64_bios",
-           "src/arch/x86_64/boot_frame_arch_x86_64_efi"]
+members = ["src/booters_core/",
+           "src/arch/aarch64/booters_arch_aarch64_mtk",
+           "src/arch/aarch64/booters_arch_aarch64_qcom",
+           "src/arch/x86/booters_arch_x86_bios",
+           "src/arch/x86_64/booters_arch_x86_64_bios",
+           "src/arch/x86_64/booters_arch_x86_64_uefi"]
 
 [profile.dev]
 lto = true
-opt-level = 3
+opt-level = 'z'
 codegen-units = 1
 debug = true
-panic = "abort"
+strip = true
+incremental = false
 
 [profile.dev.package."*"]
 codegen-units = 1
-opt-level = 3
+opt-level = 'z'
 debug = true
 
 [profile.release]
@@ -23,9 +24,12 @@ lto = true
 opt-level = 'z'
 codegen-units = 1
 debug = false
+strip = true
+incremental = false
 
 [profile.release.package."*"]
 codegen-units = 1
 opt-level = 'z'
+strip = true
+incremental = false
 debug = false
-
