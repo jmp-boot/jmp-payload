@@ -24,11 +24,11 @@ version = "0.1.0"
 
 [[package]]
 name = "booters_arch_x86_64_bios"
-version = "0.0.0"
+version = "0.1.0"
 
 [[package]]
 name = "booters_arch_x86_64_uefi"
-version = "0.0.0"
+version = "0.1.0"
 dependencies = [
  "uefi",
  "uefi-services",
@@ -36,11 +36,11 @@ dependencies = [
 
 [[package]]
 name = "booters_arch_x86_bios"
-version = "0.0.0"
+version = "0.1.0"
 
 [[package]]
 name = "booters_core"
-version = "0.0.0"
+version = "0.1.0"
 
 [[package]]
 name = "cfg-if"
