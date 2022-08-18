@@ -2,12 +2,12 @@
 #![no_main] // we don't use conventional main on embedded
 #![feature(alloc_error_handler)]
 
-extern crate core;
 extern crate alloc;
+extern crate core;
 
+use alloc::alloc::{GlobalAlloc, Layout};
 use core::panic::PanicInfo;
 use core::ptr::null_mut;
-use alloc::alloc::{GlobalAlloc, Layout};
 
 // define dummy allocator - see os.phil-opp.com
 // this is temporary, and will NOT boot
