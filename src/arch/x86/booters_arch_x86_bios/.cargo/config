@@ -1,6 +1,0 @@
-[build]
-target = "i386-unknown-none.json"
-
-[unstable]
-build-std = ["core", "compiler_builtins", "alloc"]
-build-std-features = ["compiler-builtins-mem"]
