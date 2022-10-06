@@ -1,10 +1,5 @@
 [workspace]
-members = ["src/booters_core/",
-           "src/arch/aarch64/booters_arch_aarch64_mtk",
-           "src/arch/aarch64/booters_arch_aarch64_qcom",
-           "src/arch/x86/booters_arch_x86_bios",
-           "src/arch/x86_64/booters_arch_x86_64_bios",
-           "src/arch/x86_64/booters_arch_x86_64_uefi"]
+members = ["src/booters_core/"]
 
 [profile.dev]
 lto = true
