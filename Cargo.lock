@@ -5,3 +5,19 @@ version = 3
 [[package]]
 name = "booters_core"
 version = "0.1.0"
+
+[[package]]
+name = "booters_hal_mtk"
+version = "0.0.0"
+
+[[package]]
+name = "booters_hal_pc_x86"
+version = "0.0.0"
+
+[[package]]
+name = "booters_hal_pc_x86_64"
+version = "0.0.0"
+
+[[package]]
+name = "booters_hal_qcom"
+version = "0.0.0"
