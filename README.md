@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2023 The Booters Developers
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 Welcome to `booters`! 
 ========================
 

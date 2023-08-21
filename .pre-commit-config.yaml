@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2023 The Booters Developers
+#
+# SPDX-License-Identifier: Apache-2.0
+
 # See https://pre-commit.com for more information
 # See https://pre-commit.com/hooks.html for more hooks
 repos:

@@ -1,0 +1,18 @@
+# SPDX-FileCopyrightText: 2023 The Booters Developers
+#
+# SPDX-License-Identifier: Apache-2.0
+
+name: Conventional Commits Verification Workflow
+
+on:
+  pull_request:
+
+jobs:
+  test-pr-commit-msg:
+    name: Test the PR's commit message for compliance with Conventional Commits.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: webiny/action-conventional-commits@v1.1.0
+        with:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
