@@ -1,10 +1,7 @@
 [package]
 name = "booters_core"
 version = "0.1.0"
-edition = "2021"
-
-[lib]
-name = "booters_core"
-path = "src/lib.rs"
+edition = "2018"
 
 [dependencies]
+android-sparse = "0.6.0"
