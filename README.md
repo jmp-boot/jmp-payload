@@ -1,12 +1,19 @@
 Welcome to `booters`! 
 ========================
 
-This is a bootloader framework. It uses CPU architecture-specific crates, which are exposed as a unified API for generating customised bootloaders for various devices.
+This is an experiment to create a new, libre bootloader for Android, UEFI
+(arm64/x86_64), and other embedded targets.
 
-The main purpose of why this project was created was for multi-booting phones. At the moment, I'm targeting Mediatek and Qualcomm devices, with the aim of booting Linux or Windows 10/11. There will also be support for x86 MBR BIOS and x86_64 BIOS/UEFI in the future.
+The history of this project stems from my dissatisfaction of chipset OEMs using
+permissively-licensed bootloaders for their boot process, and not contributing
+back. That, combined with a lack of documented and reviewed code, led to the
+creation of this project. 
+
+For example, I was trying to hack on a GUI to the LK bootloader (now DMCA'd,
+point in hand) for the Astro Slide by Planet Computers. This was an bad
+developer experience with the codebase, and I wanted something more readable to
+hack with. This bootloader keeps that desire alive.
 
 ## License
 
-This is [licensed][license] under the MIT license.
-
-[license]: /LICENSE
+You can see the licenses used with the REUSE tool by FSFE.
