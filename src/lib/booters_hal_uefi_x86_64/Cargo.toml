@@ -1,0 +1,6 @@
+[package]
+name = "booters_hal_uefi_x86_64"
+version = "0.0.0"
+edition = "2018"
+
+[dependencies]

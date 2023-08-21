@@ -1,11 +1,10 @@
 [workspace]
 members = [
-"src/lib/booters_core/",
-"src/lib/booters_hal_mtk",
-"src/lib/booters_hal_qcom",
-"src/lib/booters_hal_pc_x86",
-"src/lib/booters_hal_pc_x86_64"
-]
+	"src/lib/booters_core",
+	"src/lib/booters_hal_mtk",
+	"src/lib/booters_hal_qcom",
+	"src/lib/booters_hal_uefi_x86_64"
+	]
 
 [profile.dev]
 lto = true
