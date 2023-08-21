@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: booters
-Upstream-Contact: Dom Rodriguez <shymega+booters@shymega.org.uk>
+Upstream-Contact: The Booters Developers <shymega+booters@shymega.org.uk>
 Source: https://github.com/shymega/booters.git
 
 # Sample paragraph, commented out:

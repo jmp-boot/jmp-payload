@@ -1,0 +1,18 @@
+# SPDX-FileCopyrightText: 2023 The Booters Developers
+#
+# SPDX-License-Identifier: Apache-2.0
+
+name: REUSE Compliance workflow
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  test-reuse-compliance:
+    name: Test the commit for REUSE Compliance.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: fsfe/reuse-action@v2
