@@ -8,3 +8,4 @@ version = "0.0.0"
 edition = "2018"
 
 [dependencies]
+booters_core = { path = "../booters_core" }
