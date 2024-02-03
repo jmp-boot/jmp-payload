@@ -7,8 +7,12 @@ members = [
 	"src/lib/booters_core",
 	"src/lib/booters_hal_mtk",
 	"src/lib/booters_hal_qcom",
-	"src/lib/booters_hal_uefi_x86_64"
-	]
+	"src/lib/booters_hal_uefi_x86_64",
+  "src/bin/mtk_arm64/",
+  "src/bin/qcom_arm64/",
+  "src/bin/uefi_x86_64/"
+]
+resolver = "1"
 
 [profile.dev]
 lto = true
