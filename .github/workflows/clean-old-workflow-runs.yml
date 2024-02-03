@@ -1,0 +1,17 @@
+name: Clean up old workflow runs.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 1'
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: clean workflow runs
+        uses: boredland/action-purge-workflow-runs@main
+        with:
+          days-old: 60
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
