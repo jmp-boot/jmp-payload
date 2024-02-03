@@ -9,5 +9,5 @@ edition = "2018"
 
 [dependencies]
 android-sparse = "0.6.0"
-embedded-io = "0.5.0"
+embedded-io = "0.6.1"
 gpt = { version = "3.1.0", default-features = false }
