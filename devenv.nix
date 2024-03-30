@@ -1,4 +1,8 @@
-{  ... }: {
+# SPDX-FileCopyrightText: 2024 The Booters Developers
+#
+# SPDX-License-Identifier: Apache-2.0
+
+{ ... }: {
   languages = {
     rust.enable = true;
     shell.enable = true;
