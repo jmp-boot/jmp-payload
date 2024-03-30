@@ -1,16 +1,18 @@
-{ ... }:
-
-{
-  languages.rust = {
-    enable = true;
-    channel = "stable";
-    components = [ "rustc" "cargo" "clippy" "rustfmt" "rust-analyzer" ];
-  };
-
-  pre-commit.hooks = {
-    rustfmt.enable = true;
-    clippy.enable = true;
+{  ... }: {
+  languages = {
+    rust.enable = true;
+    shell.enable = true;
+    nix.enable = true;
   };
 
   devcontainer.enable = true;
+  difftastic.enable = true;
+  dotenv.enable = true;
+
+  pre-commit.hooks = {
+    actionlint.enable = true;
+    commitizen.enable = true;
+    markdownlint.enable = true;
+    nixpkgs-fmt.enable = true;
+  };
 }

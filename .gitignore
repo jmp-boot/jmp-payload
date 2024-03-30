@@ -3,6 +3,6 @@
 # SPDX-License-Identifier: Apache-2.0
 
 target
-/.direnv
-/.devenv
-/.pre-commit-config.yaml
+.direnv*
+.devenv*
+.pre-commit-config.yaml
