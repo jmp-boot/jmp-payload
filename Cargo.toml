@@ -1,18 +1,26 @@
-# SPDX-FileCopyrightText: 2024 The Booters Developers
+# SPDX-FileCopyrightText: 2024 The JMP.boot Developers
 #
 # SPDX-License-Identifier: GPL-3.0-only
 
 [workspace]
 members = [
-	"src/lib/booters_core",
-	"src/lib/booters_hal_mtk",
-	"src/lib/booters_hal_qcom",
-	"src/lib/booters_hal_uefi_x86_64",
-  "src/bin/mtk_arm64/",
-  "src/bin/qcom_arm64/",
-  "src/bin/uefi_x86_64/"
+	"src/lib/common",
+  "src/targets/lk/",
+  "src/targets/u_boot/",
+  "src/targets/uefi"
 ]
 resolver = "1"
+
+[workspace.package]
+authors = ["The JMP.boot Developers"]
+rust-version = "1.77"
+license = "GPL-3.0-only"
+
+[workspace.dependencies]
+android-sparse = "0.6.0"
+embedded-io = "0.6.1"
+ext4-view = "0.4.1"
+gpt = { version = "3.1.0", default-features = false }
 
 [profile.dev]
 lto = true

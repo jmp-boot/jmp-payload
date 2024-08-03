@@ -1,0 +1,9 @@
+# SPDX-FileCopyrightText: 2024 The JMP.boot Developers
+#
+# SPDX-License-Identifier: GPL-3.0-only
+
+version = 1
+SPDX-PackageName = "JMP.boot"
+SPDX-PackageSupplier = "The JMP.boot Developers <shymega+JMP-boot@shymega.org.uk>"
+SPDX-PackageDownloadLocation = "https://github.com/JMP-Boot/jmp-payload.git"
+annotations = []

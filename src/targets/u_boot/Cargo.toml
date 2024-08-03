@@ -1,0 +1,10 @@
+# SPDX-FileCopyrightText: 2024 The JMP.boot Developers
+#
+# SPDX-License-Identifier: GPL-3.0-only
+
+[package]
+name = "jmp_boot_target_u_boot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

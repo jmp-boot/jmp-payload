@@ -1,10 +1,10 @@
 <!--
-SPDX-FileCopyrightText: 2024 The Booters Developers
+SPDX-FileCopyrightText: 2024 The JMP.boot Developers
 
 SPDX-License-Identifier: CC0-1.0
 -->
 
-# Welcome to `booters`
+# Welcome to JMP.boot!
 
 This is an experiment to create a new, libre bootloader for Android, UEFI
 (arm64/x86_64), and other embedded targets.

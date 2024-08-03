@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: 2024 The Booters Developers
+SPDX-FileCopyrightText: 2024 The JMP.boot Developers
 
 SPDX-License-Identifier: CC0-1.0
 -->

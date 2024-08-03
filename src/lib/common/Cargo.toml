@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: 2024 The JMP.boot Developers
+#
+# SPDX-License-Identifier: GPL-3.0-only
+
+[package]
+name = "jmp_boot_common"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+android-sparse.workspace = true
+embedded-io.workspace = true
+ext4-view.workspace = true
+gpt.workspace = true
