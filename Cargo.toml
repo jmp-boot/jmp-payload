@@ -19,7 +19,7 @@ license = "GPL-3.0-only"
 [workspace.dependencies]
 android-sparse = "0.6.0"
 embedded-io = "0.6.1"
-ext4-view = "0.4.1"
+ext4-view = "0.4.2"
 gpt = { version = "3.1.0", default-features = false }
 
 [profile.dev]
